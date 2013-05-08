@@ -21,7 +21,7 @@ Known Issues
 Install
 -----
 1. You should be able to simply add the workflow to your Alfred simply by double clicking.
-2. Set your server address by typing: "indigo server http://HOST:PORT"
+2. Set your server address by typing: "indigo server http://HOST:PORT" (be sure to not add a trailing slash "/")
 3. Should be good to go!
 
 NOTE: I'm particularly interested in anyone who has problems because the permissions of the bash script files are not correct.  I didn't have a way of testing that thoroughly.
