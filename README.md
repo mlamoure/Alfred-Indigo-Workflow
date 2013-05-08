@@ -6,7 +6,9 @@ An Alfred workflow to control your Indigo (http://www.perceptiveautomation.com) 
 There are three steps, started through the keyword "indigo"
 
 Step 1: Selection of Device, Variables, or Actions (static)
+
 Step 2: Selection of the specific device, variable, or action desired (dynamically loaded from Indigo)
+
 Step 3: Giving a command (for devices and variables only, actions are immediately executed)
 
 Change Log
