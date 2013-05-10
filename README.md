@@ -14,6 +14,7 @@ Step 3: Giving a command (for devices and variables only, actions are immediatel
 Change Log
 -----
 2013-05-07: Initial release
+2013-05-10: Improved debugging, fixed bugs with devices being given the "isOn" command
 
 Known Issues
 -----
