@@ -20,8 +20,12 @@ Change Log
 Known Issues
 -----
 1. Only devices that respond to "isOn" and "Brightness" parameters work (in other words, only Lamps)
+
 2. The Workflow does not remove options as you type more specific names of your devices, actions, and variables, I plan on working on this.
+
 3. If you stop in the middle of one of the "steps" (see above) without completing, the workflow will pick up where you began.  For example. if you type "indigo Devices" into Alfred then hit escape, the next time you type "indigo" into Alfred, no matter how long it has been since Step 1, it will pick up with the "Device Selection Step" (Step 2).  This is a consequence of how I store the state information, I also plan to find a way to better way in the future, or at least have it time sensitive.
+
+4. Does not support password protection on your indigo web server
 
 Troubleshooting
 -----
