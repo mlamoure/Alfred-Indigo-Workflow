@@ -26,7 +26,7 @@ Known Issues
 
 2. The Workflow does not remove options as you type more specific names of your devices, actions, and variables, I plan on working on this.
 
-3. If you stop in the middle of one of the "steps" (see above) without completing, the workflow will pick up where you began.  For example. if you type "indigo Devices" into Alfred then hit escape, the next time you type "indigo" into Alfred, no matter how long it has been since Step 1, it will pick up with the "Device Selection Step" (Step 2).  This is a consequence of how I store the state information, I also plan to find a way to better way in the future, or at least have it time sensitive.
+3. If you stop in the middle of one of the "steps" (see above) without completing, the workflow will pick up where you left off.  For example. if you type "indigo Devices" into Alfred then hit escape, the next time you type "indigo" into Alfred, no matter how long it has been since Step 1, it will pick up with the "Device Selection Step" (Step 2).  This is a consequence of how I store the state information, I also plan to find a way to better way in the future, or at least have it time sensitive.
 
 Troubleshooting
 -----
@@ -36,7 +36,7 @@ Recreate the problem and send me the log.txt (or the log file name you specify) 
 Install
 -----
 1. You should be able to simply add the workflow to your Alfred simply by double clicking.
-2. Set your server address by typing: "indigo server http://HOST:PORT" (be sure to not add a trailing slash "/")
+2. Set your server address by typing: "indigo http://HOST:PORT" (be sure to not add a trailing slash "/").  You can reset your server at any time by typing: indigo server http://HOST:PORT into Alfred.
 3. If you have a login / password set on your indigo server, edit the indigo.config file to set it (you will find this file in your workflow directory, I plan to make a command to configure the login and password in a future release)
 3. Should be good to go!
 
