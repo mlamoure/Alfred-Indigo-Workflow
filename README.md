@@ -37,7 +37,7 @@ Install
 -----
 1. You should be able to simply add the workflow to your Alfred simply by double clicking.
 2. Set your server address by typing: "indigo server http://HOST:PORT" (be sure to not add a trailing slash "/")
-3. If you have a login / password set on your indigo server, edit the indigo.config file to set it
+3. If you have a login / password set on your indigo server, edit the indigo.config file to set it (you will find this file in your workflow directory, I plan to make a command to configure the login and password in a future release)
 3. Should be good to go!
 
 Keep in mind this could potentially be buggy.  Please reach to me if you discover problems.
