@@ -42,4 +42,4 @@ Install
 3. If you have a login / password set on your indigo server, edit the indigo.config file to set it (you will find this file in your workflow directory, I plan to make a command to configure the login and password in a future release)
 3. Should be good to go!
 
-Keep in mind this could potentially be buggy.  Please reach to me if you discover problems.
+Keep in mind this could potentially be buggy.  Please reach to me (http://tmblr.co/ZWdHtukUk48d) if you discover problems.
