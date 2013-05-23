@@ -3,6 +3,8 @@ Alfred-Indigo-Workflow
 
 An Alfred workflow to control your Indigo (http://www.perceptiveautomation.com) devices, action groups, variables.  This workflow works great if you have set up your indigo in convenient ways, such as configuring macros based on variables or action groups.  For example, a variable that controls the brightness level for several lights in a room would allow you to change the lights via a command to Alfred: indigo variable lights 50
 
+Some screenshots of the workflow: http://tmblr.co/ZWdHtukUk48d
+
 The workflow is partitioned into three steps, started through the keyword "indigo"
 
 Step 1: Selection of Device, Variables, or Actions (static)
