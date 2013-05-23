@@ -13,6 +13,8 @@ Step 3: Giving a command (on, off) or value (for devices and variables only, act
 
 Change Log
 -----
+2013-05-22: Allowed for filtering of devices after querying Indigo, works on step 1 and 2
+
 2013-05-15: Many improvements to the coding.  Added support for password protected Indigo servers.  Added a separate configuration file to configure server, login, password, and debugging options.
 
 2013-05-10: Improved debugging, fixed bugs with devices being given the "isOn" command.  Added some checks to see if the scripts had the appropriate permissions to execute.
@@ -24,9 +26,7 @@ Known Issues
 -----
 1. Only devices that respond to "isOn" and "Brightness" parameters work (in other words, only Lamps)
 
-2. The Workflow does not remove options as you type more specific names of your devices, actions, and variables, I plan on working on this.
-
-3. If you stop in the middle of one of the "steps" (see above) without completing, the workflow will pick up where you left off.  For example. if you type "indigo Devices" into Alfred then hit escape, the next time you type "indigo" into Alfred, no matter how long it has been since Step 1, it will pick up with the "Device Selection Step" (Step 2).  This is a consequence of how I store the state information, I also plan to find a way to better way in the future, or at least have it time sensitive.
+2. If you stop in the middle of one of the "steps" (see above) without completing, the workflow will pick up where you left off.  For example. if you type "indigo Devices" into Alfred then hit escape, the next time you type "indigo" into Alfred, no matter how long it has been since Step 1, it will pick up with the "Device Selection Step" (Step 2).  This is a consequence of how I store the state information, I also plan to find a way to better way in the future, or at least have it time sensitive.
 
 Troubleshooting
 -----
